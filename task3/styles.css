@@ -1,0 +1,64 @@
+
+body {
+    background-color: #fdfdf8;
+    color: #333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.card button:hover {
+    background-color: #1a5276;
+}
+front-mai/task3/styles.css at main · Belaquaa/front-mai 
